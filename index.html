@@ -59,36 +59,50 @@
                   On the other hand, with the change of the political system, the number of seats in the geographical constituency also increased from 24 seats in 2000 to 35 seats in 2016. If we divide the total number of registered voters by the total number of constituency seats, we can broadly reflect the number of voters that each member can effectively represent. And the number of electors representing the average number of seats on each delegate dropped from 280,704 in 2000 to 210585 in 2016, due to the increase in the number of seats from 2000 to 2016, About 25%.
                 </p>
 
-                <h2> Teaching Team </h2>
-
-                <h3> Instructor </h3>
+                <h3>Seats, population and voter numbers are asymmetric</h3>
 
                 <p>
-                    <a href="https://linkedin.com/in/hupili">Pili Hu</a> is the lead of technology team of
-                    <a href="https://theinitium.com/"> Initium Media </a> and
-                    <a href="http://www.lionfin.tech/">Lion Finance</a>. While affiliated with Initium as Data Scientist and Director of <a href="http://initiumlab.com/">Initium Lab</a>, he led the project of
-                    <a href="http://legco.initiumlab.com/">Analysing Hong Kong Legislative Council Voting Records</a> and won
-                    <a href="https://theinitium.com/article/20160615-sopa-awards-2016/">SOPA 2016 Excellence in Infographics</a>. He is also active participant in local <em>open source</em>, <em>open data</em> and <em>hacks &amp; hackers</em> community.
+                  Voters to vote on behalf of the vote is an important basis for representative government. How do we know if the members of the district are sufficiently representative of the other constituencies? In practice, we have to see the number of votes to be determined by the polling rate. However, the demarcation and the allocation of seats have already affected the average number of voters representing each district seat. If we divide the number of registered voters in the area by the number of seats, we can draw the average number of voters represented by each seat.
                 </p>
-				
 
+                <img src="http://initiumlab.com/blog/20160903-legco-seats-analysis/%E5%9C%96%E4%BA%8C-01.png" />
 
-				<h3> Student Helper </h3>
-
-                <p>
-                    <a href="https://www.linkedin.com/in/roy-zhang-55996193/">Roy Zhang</a> is an HKBU Computer Science Final Year Student. He has a deep understanding of 
-					cyber security and practical exploit skill. With solid programming foundation in Java, C#, and Python, he will help you figure out how does code work. 
-                </p>
-		<p>
-		    <a href=" https://www.linkedin.com/in/qingyi-echo-guan-63567055/">Echo Guan</a> is a current MSc student majoring in Advanced Information System at HKBU. 
-					She is proficient in using advanced computer data analysing software such as SPSS, Excel, SAS, R and MySQL. She will assist in the lab-classes operation and coordinate course programs.
-		</p>
+                <p>In 2016, the above figures were the highest in Kowloon Eastern and New Territories West. Each seat could theoretically represent about 120 000 registered voters followed by Hong Kong Island and New Territories East, with 105 000 and 108 000 voters respectively. Kowloon West is relatively less, only nearly 81,000 voters.</p>
                 
-                <h3>Teaching Assistant</h3>
+                <p>If we carefully compare the situation of Kowloon East and Kowloon West constituency, we can draw an interesting discovery. The electoral registration rate for the Kowloon West constituency is the lowest among the districts, which is only about 42.75% in 2016. However, the population of the district has increased considerably, so that a total of six seats will be added in 2016. In contrast to the Kowloon West constituency, the electoral registration rate for the Kowloon East constituency was the highest in Hong Kong, reaching 55.46% in 2016, but the proportion of the population in the area was low. There was no change in the number of seats in 2016 and still only five seats.</p>
+                
+                <p>As mentioned above, the average number of seats in Kowloon West represents more than 80 000 voters, representing an average of about 120 000 electors in each of the seats in Kowloon West. As the number of seats is divided according to the number of people, the electors are elected by electors, and the voter registration rates of the constituencies are different. This creates a disproportionate phenomenon. More voters in the Kowloon West District can elect more seats. On the contrary, But elected fewer seats.</p>
+                
+                <p>Looking at the data of the election of the last five Legislative Councils, if we count the number of voters represented by each of the preceding seats, divided by the total number of registered voters in the current session, we will be able to make cross.</p>
 
-                <p> 
-                    <a href="https://www.linkedin.com/in/tianyi-chao-670991a3/">Tianyi</a> comes from journalism background and has worked closely with newsroom geeks for long. She participanted and supported various news projects while at Initium. At the same time, she is an active member of Initium Lab and related communities. In the following semester, She will learn coding with you, and help bridge the two worlds of coding and news reporing.
-                </p>
+                <img src="http://initiumlab.com/blog/20160903-legco-seats-analysis/%E5%9C%96%E4%B8%89-01.png" />
+
+                <p>From the point of view of the results, the number of seats in the Kowloon West District, which was mentioned above, increased to about 2.15% after the increase in the number of seats in 2016, and the representation of the district has also been declining. In the past five sessions, there was considerable fluctuation in the individual constituencies. For example, when the Kowloon East area was reduced to four seats in 2008, the number of seats was suddenly increased to about 4%. In addition, the seats in the New Territories West and the New Territories East have been kept at a high level, and the last five places also occupy the top three places. On the contrary Hong Kong Island is long at a lower level. However, we found that the 2004 constituency and the distribution of seats were the most voter of the districts, that is, the number of voters representing each district seat was very similar.</p>
+
+                <h3>How many seats should be allocated in each district?</h3>
+
+                <p>In addition to analyzing the representativeness of seats in each constituency, we can also analyze whether the number of seats allocated per district is reasonable from the actual population size. At present, the EAC divides seats according to the population ratio. As the proportion of the population in each district is almost impossible to be an integer, the EAC has determined that the number of seats in the district is similar to the population.</p>
+                  
+                <p>The number of "income" refers to the number of seats in the geographical constituency, which is simply the number of seats represented by the number of seats in the district. The percentage of income is the percentage of the difference between the estimated number of people and the number of income. In simple terms, if it is a positive number, it means that the population is expected to be larger than the income. That is, the constituency should get more seats, and vice versa.</p>
+
+                <img src="http://initiumlab.com/blog/20160903-legco-seats-analysis/%E5%9C%96%E5%9B%9B-01.png" />
+
+                <p>We according to this algorithm analysis of the last five constituency seats to see what changes. The results show that the constituencies have their own unique trajectory. The number of income in the New Territories West is about 7% of the long-term deviation, which reflects that they should have more seats. In contrast, the number of Hong Kong Island districts in 2000 to 2012 The percentage has been less than -4%, reflecting that it should have received fewer seats, and then after 2016 was subtracted from the seats, the number of deviation from the percentage will return to almost zero the perfect ratio; and Kowloon West is showing a more volatile State, which is the number of its population and the number of seats in the calendar year to a greater change.</p>
+
+                <img src="http://initiumlab.com/blog/20160903-legco-seats-analysis/%E5%9C%96%E4%BA%94-01.png" />
+
+                <p>In the case of the allocation of seats in 2016, for example, the sum of the absolute value of the percentage of the five districts is about 30.13%. Although the deviation of each district is not beyond the limit of the law, is this the best choice?</p>
+                
+                <p>From the above figure, we can see that in the area of ​​direct elections in 2016, if we divide the 2012 Hong Kong Island area into the New Territories West, the sum of the absolute value of the percentage of the five districts will drop to about 18.39%. So why is the Government not adopting a more accurate seat allocation scheme? Originally, according to the existing Legislative Council Ordinance (19), the number of Members to be elected in each geographical constituency should not be less than five and no more than nine. Therefore, the addition of a seat in the New Territories West will exceed the existing law.</p>
+                
+                <p>Of course, this provision is not static, and the law has been amended in 2011 to reflect that there is still room for improvement in the allocation of seats in the district. In fact, the EAC has also taken into account some proposals that can be made without amendment, such as the inclusion of certain areas of the New Territories West constituency in other constituencies, but in the end they are due to the imposition of a judgment.</p>
+
+                <h3>Conclusion</h3>
+                <p>It is expected that the population, the number of voters and the number of seats will be interrelated and will have a certain effect on the representativeness and fairness of the elections. Therefore, the subject should be further considered in the future.</p>
+
+
+
+				
 
                 <h2> Course Materials </h2>
                 <div class="row">
