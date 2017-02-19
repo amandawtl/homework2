@@ -1,5 +1,6 @@
 .jumbotron{
     text-align: center;
+    color: seagreen;
 }
 
 table{
@@ -7,8 +8,8 @@ table{
 }
 
 img{
-    width: 930px;
-    height: 730px;
+    width: 940px;
+    height: 740px;
     border: 2px dashed lightseagreen;
     margin: auto;
 }
