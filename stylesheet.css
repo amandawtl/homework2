@@ -16,3 +16,8 @@ img{
 p{
     text-align:justify;
 }
+
+figure{
+    width:350px;
+    height:290px;
+}
