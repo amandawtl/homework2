@@ -1,7 +1,9 @@
 img{
     width: 700px;
     height: 500px;
-    border: 2px solid dimgrey;
+    border: 2px dashed dimgrey;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p{
