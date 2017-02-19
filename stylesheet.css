@@ -1,15 +1,10 @@
-.jumbotron{
-    text-align: center;
-    color: seagreen;
-}
-
 table{
     text-align: center;
 }
 
 img{
-    width: 940px;
-    height: 740px;
+    width: 935px;
+    height: 735px;
     border: 2px dashed lightseagreen;
     margin: auto;
 }
