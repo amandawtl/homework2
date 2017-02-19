@@ -16,3 +16,8 @@ img{
 p{
     text-align:justify;
 }
+
+:not(div) {
+    width:350px;
+    height:290px;
+}
