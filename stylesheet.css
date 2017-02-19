@@ -1,7 +1,16 @@
+.jumbotron text-center{
+    text-align: center;
+}
+
+.table table-hover{
+    width: 750px;
+    height: 550px;
+}
+
 img{
-    width: 700px;
-    height: 500px;
-    border: 2px dashed dimgrey;
+    width: 750px;
+    height: 550px;
+    border: 2px dashed seagreen;
     margin-left: auto;
     margin-right: auto;
 }
@@ -9,3 +18,4 @@ img{
 p{
     text-align:justify;
 }
+
