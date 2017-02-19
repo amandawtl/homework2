@@ -1,5 +1,9 @@
 img{
-    width: 800px;
-    height: 600px;
+    width: ７00px;
+    height: ５00px;
     border: 2px solid dimgrey;
+}
+
+p{
+    text-align: justify;
 }
