@@ -5,7 +5,7 @@ table{
     margin-right:auto;
 }
 
-img:not(div){
+img{
     width: 730px;
     height: 530px;
     border: 2px dashed lightseagreen;
