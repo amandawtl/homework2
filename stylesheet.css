@@ -1,9 +1,9 @@
 img{
-    width: ７00px;
-    height: ５00px;
+    width: 700px;
+    height: 500px;
     border: 2px solid dimgrey;
 }
 
 p{
-    text-align: justify;
+    text-align:justify;
 }
