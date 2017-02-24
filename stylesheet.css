@@ -4,7 +4,7 @@ table{
 
 img{
     width: 500px;
-    height: 350px;
+    height: 300px;
     border: 2px dashed lightseagreen;
 }
 
@@ -16,10 +16,7 @@ figure img{
     border:none;
 }
 
-h1{
-    text-decoration: seagreen;
-    text-align: center;
-}
+
 
 h2{
     text-decoration: dodgerblue;
@@ -30,6 +27,6 @@ h3{
 }
 
 *{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
