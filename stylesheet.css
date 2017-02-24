@@ -3,11 +3,9 @@ table{
 }
 
 img{
-    width: 800px;
-    height: 550px;
+    width: 700px;
+    height: 500px;
     border: 2px dashed lightseagreen;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 p{
@@ -18,14 +16,12 @@ figure img{
     border:none;
 }
 
-
-
-article h2{
-    text-decoration: dodgerblue;
+h2{
+    color: dodgerblue
 }
 
 h3{
-    text-decoration: darkorange;
+    color: darkorange;
 }
 
 *{
@@ -34,11 +30,6 @@ h3{
 }
 
 .container{
-   padding-left: 20px;
-   padding-right: 20px; 
-}
-
-.btn btn-default{
-    height: 10px;
-    width: 5px;
+   padding-left: 15px;
+   padding-right: 15px; 
 }
