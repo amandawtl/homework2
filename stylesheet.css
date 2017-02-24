@@ -23,3 +23,8 @@ h2{
 h3{
     text-decoration: darkorange;
 }
+
+*{
+    padding-left: 50px;
+    padding-right: 50px;
+}
