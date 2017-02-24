@@ -6,6 +6,8 @@ img{
     width: 800px;
     height: 550px;
     border: 2px dashed lightseagreen;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 p{
