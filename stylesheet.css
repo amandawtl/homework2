@@ -33,3 +33,9 @@ h2{
    padding-left: 15px;
    padding-right: 15px; 
 }
+
+.jumbotron{
+    color: lightseagreen;
+    text-align: center;
+    font-family: Arial;
+}
