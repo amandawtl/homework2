@@ -16,7 +16,12 @@ figure img{
     border:none;
 }
 
-.container-fluid h2{
+h1{
+    text-decoration: seagreen;
+    text-align: center;
+}
+
+h2{
     text-decoration: dodgerblue;
 }
 
