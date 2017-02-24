@@ -3,8 +3,8 @@ table{
 }
 
 img{
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     border: 2px dashed lightseagreen;
 }
 
@@ -14,4 +14,12 @@ p{
 
 figure img{
     border:none;
+}
+
+h2{
+    text-decoration: dodgerblue;
+}
+
+h3{
+    text-decoration: darkorange;
 }
