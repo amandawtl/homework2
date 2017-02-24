@@ -16,22 +16,12 @@ figure img{
     border:none;
 }
 
-h2.container{
+h2{
     color: darkorange;
-
-h2.container-fluid{
-    color: dodgerblue;
-}
-
-h3.container-fluid{
-    color: dodgerblue;
-}
-
-
 }
 
 h3{
-    color: darkorange;
+    color: dodgerblue;
 }
 
 *{
